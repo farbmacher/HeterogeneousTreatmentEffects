@@ -1,0 +1,223 @@
+Number of observations 
+$payamount_fraction
+[1] 1265
+
+$hardship
+[1] 1026
+
+$livecheckbycheck
+[1] 1213
+
+$caloric_crunch
+[1] 1165
+
+$liquidity_constrained
+[1] 1248
+
+$income_less20k
+[1] 1020
+
+
+ lm.subgroups.ncor.rt.rob 
+$payamount_fraction
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.419      0.006  70.395 <0.0000000000000002 ***
+treatment      0.003      0.008   0.339               0.735    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$hardship
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.447      0.007  67.885 <0.0000000000000002 ***
+treatment      0.007      0.009   0.746               0.456    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$livecheckbycheck
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.441      0.006  74.454 <0.0000000000000002 ***
+treatment      0.012      0.008   1.477                0.14    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$caloric_crunch
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.433      0.006  69.187 <0.0000000000000002 ***
+treatment      0.011      0.009   1.318               0.188    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$liquidity_constrained
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.437      0.006  73.270 <0.0000000000000002 ***
+treatment      0.013      0.008   1.521               0.129    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$income_less20k
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.424      0.007  62.858 <0.0000000000000002 ***
+treatment      0.000      0.009   0.031               0.975    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+
+ lm.subgroups.ncorrect.rob 
+$payamount_fraction
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   41.799      0.478  87.533 <0.0000000000000002 ***
+treatment     -0.014      0.663  -0.021               0.983    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$hardship
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   42.638      0.490  87.067 <0.0000000000000002 ***
+treatment      0.066      0.670   0.098               0.922    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$livecheckbycheck
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   42.629      0.450  94.664 <0.0000000000000002 ***
+treatment      0.435      0.602   0.722               0.471    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$caloric_crunch
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   42.040      0.482  87.176 <0.0000000000000002 ***
+treatment      0.666      0.645   1.033               0.302    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$liquidity_constrained
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   42.332      0.449  94.279 <0.0000000000000002 ***
+treatment      0.257      0.619   0.415               0.678    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$income_less20k
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   41.686      0.534  78.126 <0.0000000000000002 ***
+treatment     -0.376      0.756  -0.498               0.619    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+
+ lm.subgroups.rt.rob 
+$payamount_fraction
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  104.461      0.986 105.922 <0.0000000000000002 ***
+treatment     -1.500      1.332  -1.126                0.26    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$hardship
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   99.784      1.050  94.995 <0.0000000000000002 ***
+treatment     -0.949      1.474  -0.644                0.52    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$livecheckbycheck
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  100.863      0.933 108.097 <0.0000000000000002 ***
+treatment     -1.737      1.284  -1.352               0.177    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$caloric_crunch
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  101.913      0.982  103.75 <0.0000000000000002 ***
+treatment     -1.190      1.353   -0.88               0.379    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$liquidity_constrained
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  101.796      0.959 106.104 <0.0000000000000002 ***
+treatment     -1.753      1.388  -1.263               0.207    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$income_less20k
+
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  102.278      1.045  97.836 <0.0000000000000002 ***
+treatment     -0.321      1.522  -0.211               0.833    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+

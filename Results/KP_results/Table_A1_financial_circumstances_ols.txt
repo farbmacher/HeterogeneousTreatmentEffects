@@ -1,0 +1,33 @@
+
+ lm.cash.rob 
+ N= 2295
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   273.18      55.52    4.92 <0.0000000000000002 ***
+treatment     -33.39      73.72   -0.45                0.65    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+ lm.expenditures.rob 
+ N= 2296
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  1279.50     371.45    3.44 <0.0000000000000002 ***
+treatment    -542.88     378.69   -1.43                0.15    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+ lm.balance.rob 
+ N= 2127
+t test of coefficients:
+
+            Estimate Std. Error  t value  Pr(>|t|)   
+(Intercept) 15520.66    5000.96  3.10353 0.0019374 **
+treatment   -6032.75    5083.40 -1.18675 0.2354575   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

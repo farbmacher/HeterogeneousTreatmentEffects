@@ -1,0 +1,33 @@
+
+ lm.ncor.rt.rob 
+ N= 2480
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)    0.443      0.004 107.303 <0.0000000000000002 ***
+treatment      0.007      0.006   1.254                0.21    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+ lm.ncorrect.rob 
+ N= 2480
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)   42.805      0.305 140.573 <0.0000000000000002 ***
+treatment      0.183      0.425   0.432               0.666    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+ lm.rt.rob 
+ N= 2480
+t test of coefficients:
+
+            Estimate Std. Error t value            Pr(>|t|)    
+(Intercept)  101.017      0.643 157.021 <0.0000000000000002 ***
+treatment     -1.062      0.916  -1.159               0.247    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

@@ -1,0 +1,15 @@
+
+ ate.ncor.rt 
+ N=117
+estimate  std.err 
+  -0.098    0.023 
+
+ ate.ncorrect 
+ N=117
+estimate  std.err 
+  -3.660    1.539 
+
+ ate.rt 
+ N=117
+estimate  std.err 
+  11.823    2.890 

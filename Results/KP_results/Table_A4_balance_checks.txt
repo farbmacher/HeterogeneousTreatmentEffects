@@ -1,0 +1,56 @@
+
+ Pairwise mean comparisons 
+                           comparison mean.untreated mean.treated pvalue
+1       livecheckbycheck by treatment          0.480        0.498  0.388
+2         caloric_crunch by treatment          0.473        0.467  0.758
+3  liquidity_constrained by treatment          0.500        0.506  0.752
+4               hardship by treatment          0.404        0.423  0.332
+5        total_payamount by treatment       1735.856     1740.043  0.937
+6     payamount_fraction by treatment          0.758        0.765  0.534
+7                    age by treatment         56.062       55.836  0.747
+8                   male by treatment          0.328        0.340  0.515
+9                married by treatment          0.323        0.346  0.213
+10              divorced by treatment          0.277        0.275  0.924
+11               widowed by treatment          0.138        0.140  0.867
+12         never_married by treatment          0.263        0.239  0.164
+13                 white by treatment          0.756        0.766  0.556
+14                 black by treatment          0.110        0.090  0.089
+15              hispanic by treatment          0.084        0.080  0.736
+16            other_race by treatment          0.050        0.064  0.130
+17              working2 by treatment          0.284        0.290  0.744
+18           unemployed2 by treatment          0.067        0.060  0.521
+19              disabled by treatment          0.191        0.207  0.333
+20               retired by treatment          0.391        0.385  0.771
+21       other_empstatus by treatment          0.067        0.058  0.330
+22             hhld_size by treatment          1.935        1.953  0.705
+23      college_graduate by treatment          0.272        0.261  0.534
+24          some_college by treatment          0.419        0.415  0.860
+25           high_school by treatment          0.247        0.260  0.465
+26      less_high_school by treatment          0.062        0.064  0.855
+27        income_less_5k by treatment          0.048        0.048  0.990
+28     income_btw_5k_10k by treatment          0.094        0.105  0.362
+29    income_btw_10k_15k by treatment          0.134        0.152  0.193
+30    income_btw_15k_20k by treatment          0.131        0.109  0.081
+31    income_btw_20k_25k by treatment          0.147        0.151  0.802
+32    income_btw_25k_30k by treatment          0.144        0.143  0.941
+33    income_btw_30k_35k by treatment          0.143        0.138  0.721
+34    income_btw_35k_40k by treatment          0.158        0.155  0.787
+35             hhld_head by treatment          0.843        0.849  0.706
+36              children by treatment          0.162        0.173  0.463
+37                 metro by treatment          0.810        0.799  0.499
+
+ Joint test 
+Wald test
+
+Model 1: treatment ~ livecheckbycheck + caloric_crunch + liquidity_constrained + 
+    hardship + total_payamount + payamount_fraction + age + male + 
+    married + divorced + widowed + white + black + hispanic + 
+    working2 + unemployed2 + disabled + retired + hhld_size + 
+    college_graduate + some_college + high_school + income_less_5k + 
+    income_btw_5k_10k + income_btw_10k_15k + income_btw_15k_20k + 
+    income_btw_20k_25k + income_btw_25k_30k + income_btw_30k_35k + 
+    hhld_head + children + metro
+Model 2: treatment ~ 1
+  Res.Df  Df     F Pr(>F)
+1   2447                 
+2   2479 -32 0.717  0.879

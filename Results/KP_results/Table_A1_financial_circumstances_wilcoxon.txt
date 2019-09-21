@@ -1,0 +1,27 @@
+
+ wilcox.cash 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  cash by treatment
+W = 700000, p-value = 0.01
+alternative hypothesis: true location shift is not equal to 0
+
+
+ wilcox.expenditures 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  total_expenditures by treatment
+W = 800000, p-value <0.0000000000000002
+alternative hypothesis: true location shift is not equal to 0
+
+
+ wilcox.balance 
+
+	Wilcoxon rank sum test with continuity correction
+
+data:  balance_checking_savings by treatment
+W = 600000, p-value = 0.0004
+alternative hypothesis: true location shift is not equal to 0
+
