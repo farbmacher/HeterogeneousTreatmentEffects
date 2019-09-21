@@ -11,10 +11,10 @@
 ## Results
  * This directory contains the output produced by the two scripts listed above.
         
-## Notes:
+## Notes
  * The two R scripts are based on the original data by Carvalho *et al.* (2016). Please download the data set from the website of the American Economic Association:
  
  1. ```{js}
-    net install github, from("https://www.aeaweb.org/articles?id=10.1257/aer.20140481")
+    https://www.aeaweb.org/articles?id=10.1257/aer.20140481
     ```
  * The two R scripts require setting the path to Carvalho *et al.'s* data and where the replication results should be saved. Instructions are at the beginning of each script. 
